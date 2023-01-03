@@ -1,0 +1,192 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x:hidden;
+}
+
+ul{
+    list-style-type:none;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+
+li{
+    display:inline-block;
+    padding:10px; 
+}
+
+a{
+    text-decoration: none;
+    font-size:32px;
+    color:crimson;
+}
+
+a:hover{
+    background-color: grey;
+    color:white;
+}
+
+.container{
+    position:relative;
+}
+
+.row-container{
+    position:relative;
+    width:55%;
+}
+
+h2{
+    line-height: 0.8;
+}   
+
+.home-text{
+    position:absolute;
+    top:50%;
+    left:50%;
+    font-size:25px;
+    font-weight: bolder;
+    color:gray;
+}
+
+h1{
+    color:crimson;
+    font-size:60px;
+    line-height: 0.8;
+}
+
+/*h1::after{
+    text-decoration: underline;
+}*/
+
+#Resume{
+    margin-top:360px;
+}
+
+.written-skills{
+    color:black;
+    text-align: center;
+}
+
+.skills{
+    font-weight:400;
+    letter-spacing:1px;
+    margin-top:40px;
+    margin-bottom:5px;
+    color:black;
+    font-size:18px;
+}
+
+.progress-bar{
+    background:#959595;
+    width:600px;
+    height:20px;
+    border-radius:5px;
+}
+
+.progress-bar .html{
+    height:20px;
+    border-radius:5px;
+    width:80%;
+    background:crimson;
+}
+
+.progress-bar .css{
+    height:20px;
+    border-radius:6px;
+    width:75%;
+    background:crimson;
+}
+
+.progress-bar .github{
+    height:20px;
+    border-radius:6px;
+    width:50%;
+    background:crimson;
+}
+
+.progress-bar div span{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    background:white;
+    float:right;
+    margin-top:-15px;
+    margin-right:-20px;
+    color:#333;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.flex-container{
+    display:flex;
+    background: white;
+}
+
+.flex-content{
+    border:4px solid black;
+    outline:1px solid crimson;
+    padding:15px;
+    margin-right: 15px;
+    text-align: justify;
+    width:70%;
+    height:50%;
+    background-color: white;
+
+}
+
+.mentor-peer{
+    font-size:20px;
+    color:black;
+}
+
+em{
+    word-spacing:1px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+}
+
+.email-contact, .github-contact, .linked-in{
+    color:white;
+    font-size:15px;
+}
+
+@media only screen and (max-width:600px){
+      .progress-bar{
+        width:400px;
+      }
+
+      .flex-container{
+        display:block;
+      }
+
+      .flex-content{
+        padding:7px;
+        width:60%;
+        height:30%;
+        margin-right:0;
+      }
+    
+      a{
+        font-size:23px;
+      }
+}
+
+@media only screen and (max-width:800px){
+    .progress-bar{
+        width:400px;
+      }
+
+      .flex-container{
+        display:block;
+      }
+
+      .flex-content{
+        padding:7px;
+        width:70%;
+        height:30%;
+      }
+}
